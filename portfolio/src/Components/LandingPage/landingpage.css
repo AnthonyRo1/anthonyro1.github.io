@@ -258,13 +258,21 @@ border-radius: 50%;
 
 
 .lp-nav {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    height: 50vh;
-    width: 4vh;
     background-color: #22A7B7;
+}
+
+.fa-github-square {
+    font-size: 44px;
+}
+
+.fa-linkedin {
+    font-size: 44px;
 }
 
 .cta-projects-btn {
@@ -403,7 +411,6 @@ border-radius: 50%;
         height: 100%;
         width: 100%;
         border-radius: 12px;
-        border: 1px solid #65FBD2;
     }
 
 
@@ -421,12 +428,52 @@ border-radius: 50%;
         color: white;
     }
 
+    .card-icons-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 5vh;
+        position: relative;
+        top: 2vh;
+    }
+
+    .card-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 4vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .card-icon-img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.507))
+    }
+
     
 
 
     /* ABOUT MAIN CONTENT */
 
 /* ABOUT SECTION */
+
+
+
+
+@media only screen and (max-width: 850px) {
+    .about-txt-box {
+        flex-direction: column;
+        position: relative;
+        bottom: 5vh;
+    }
+
+
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -444,6 +491,13 @@ border-radius: 50%;
             height: 25px;
             width: 25px;
             border-radius: 5px;
+        }
+
+        .name-logo {
+            width: 5vh;
+            height: 5vh;
+            left: 1vh;
+            font-size: 2vh;
         }
 
 

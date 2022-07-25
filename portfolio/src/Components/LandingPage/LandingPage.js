@@ -374,9 +374,9 @@ const LandingPage = () => {
                 }}
             >
                 <motion.div className='lp-nav' animate={{
-                    scaleX: 2
                 }}>
-
+                    <i class="fab fa-github-square"></i>
+                    <i class="fab fa-linkedin"></i>
                 </motion.div>
             </ParallaxLayer>
 
@@ -576,6 +576,20 @@ const LandingPage = () => {
                                     }}>
                                     <p className='card-label'>EveryNote</p>
                                     <FlipCard img={everyNoteImg}/>
+                                        <motion.div className='card-icons-box'>
+                                            <motion.div className='card-icons'>
+                                                <img className='card-icon-img' src={reactLogo}></img>
+                                            </motion.div>
+                                            <motion.div className='card-icons'>
+                                                <img className='card-icon-img' src={reduxLogo}></img>
+                                            </motion.div>
+                                            <motion.div className='card-icons'>
+                                                <img className='card-icon-img' src={flaskWhiteLogo}></img>
+                                            </motion.div>
+                                            <motion.div className='card-icons'>
+                                                <img className='card-icon-img' src={cssLogo}></img>
+                                            </motion.div>
+                                        </motion.div>
                                     </div>
                                     <div
                                     className='card-row'
@@ -588,6 +602,23 @@ const LandingPage = () => {
                                     >
                                     <p className='card-label'>Quick Camp</p>
                                     <FlipCard img={quickCampImg}/>
+                                    <motion.div className='card-icons-box'>
+                                        <motion.div className='card-icons'>
+                                                <img className='card-icon-img' src={reactLogo}></img>
+                                        </motion.div>
+                                        <motion.div className='card-icons'>
+                                                <img className='card-icon-img' src={reduxLogo}></img>
+                                        </motion.div>
+                                        <motion.div className='card-icons'>
+                                                <img className='card-icon-img' src={nodeLogo}></img>
+                                        </motion.div>
+                                        <motion.div className='card-icons'>
+                                                <img className='card-icon-img' src={seqLogo}></img>
+                                        </motion.div>
+                                            <motion.div className='card-icons'>
+                                                <img className='card-icon-img' src={cssLogo}></img>
+                                            </motion.div>
+                                    </motion.div>
                                     </div>
                                 </motion.div>
                             </motion.div>

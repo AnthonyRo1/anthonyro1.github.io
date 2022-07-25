@@ -27,7 +27,9 @@ const FlipCard = ({img}) => {
                 className='card-img-front'
                 >
                 </img>
-            
+                <motion.div className='card-btns'>
+
+                </motion.div>
                 <motion.div className='card-hover' 
                 whileHover={{
                     backgroundColor: '#00000044'
