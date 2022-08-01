@@ -362,26 +362,6 @@ const LandingPage = () => {
                 </motion.div>
                 </ParallaxLayer>
 
-
-            <ParallaxLayer
-                offset={0}
-                factor={0.5}
-                speed={0}
-                style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'center'
-                }}
-            >
-                <motion.div className='lp-nav' animate={{
-                }}>
-                    <i class="fab fa-github-square"></i>
-                    <i class="fab fa-linkedin"></i>
-                </motion.div>
-            </ParallaxLayer>
-
-
-
                 <ParallaxLayer 
                 offset={0}
                 factor={0.2}
@@ -499,6 +479,18 @@ const LandingPage = () => {
                             </motion.p>
                         </motion.div>
                     </motion.div>
+                    <motion.div className='lp-nav' 
+                    initial={{
+                        x: 100
+                    }}
+                    animate={{
+                        x: 0,
+                        transition: {duration: 1}
+                    }}
+                    >
+                        <a href='https://github.com/AnthonyRo1'><i className="fab fa-github-square git"></i></a>
+                        <a href='https://www.linkedin.com/in/anthony-rodriguez-973784245/'><i className="fab fa-linkedin linked-in"></i></a>
+                    </motion.div>
                 </div>
                 </ParallaxLayer>
 
@@ -575,7 +567,7 @@ const LandingPage = () => {
                                         justifyContent: 'center',
                                     }}>
                                     <p className='card-label'>EveryNote</p>
-                                    <FlipCard img={everyNoteImg}/>
+                                        <FlipCard img={everyNoteImg} url={'https://every-note-app.herokuapp.com'} github={'https://github.com/AnthonyRo1/Everynote'}/>
                                         <motion.div className='card-icons-box'>
                                             <motion.div className='card-icons'>
                                                 <img className='card-icon-img' src={reactLogo}></img>
@@ -601,7 +593,7 @@ const LandingPage = () => {
                                     }}
                                     >
                                     <p className='card-label'>Quick Camp</p>
-                                    <FlipCard img={quickCampImg}/>
+                                        <FlipCard img={quickCampImg} url={'https://quick-camp.herokuapp.com/'} github={'https://github.com/AnthonyRo1/Quick_Camp'}/>
                                     <motion.div className='card-icons-box'>
                                         <motion.div className='card-icons'>
                                                 <img className='card-icon-img' src={reactLogo}></img>
