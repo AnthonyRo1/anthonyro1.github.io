@@ -1,14 +1,14 @@
 /* INTRO SECTION */
 .parallax-bg {
-        background: rgb(24, 24, 24);
-            /* Old browsers */
-            background: -moz-linear-gradient(top, rgba(24, 24, 24, 1) 44%, rgba(57, 87, 109, 1) 100%);
-            /* FF3.6-15 */
-            background: -webkit-linear-gradient(top, rgba(24, 24, 24, 1) 44%, rgba(57, 87, 109, 1) 100%);
-            /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(to bottom, rgba(24, 24, 24, 1) 44%, rgba(57, 87, 109, 1) 100%);
-            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#181818', endColorstr='#39576d', GradientType=0);
+    background: rgb(24, 24, 24);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(24, 24, 24, 1) 44%, rgba(57, 87, 109, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(24, 24, 24, 1) 44%, rgba(57, 87, 109, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(24, 24, 24, 1) 44%, rgba(57, 87, 109, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#181818', endColorstr='#39576d', GradientType=0);
 
 }
 
@@ -34,7 +34,8 @@
 }
 
 .tech-icon img {
-  filter:  drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.219));;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.219));
+    ;
 }
 
 
@@ -99,7 +100,7 @@
     height: 60px;
     width: 60px;
     background-color: #22A7B7;
-    
+
     /* transform: rotateX(58deg) perspective(450px); */
     border-radius: 10px;
     /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.527); */
@@ -203,10 +204,10 @@
 
 
 .progress-ball {
-height: 1vh;
-width: 1vh;
-background-color: black;
-border-radius: 50%;
+    height: 1vh;
+    width: 1vh;
+    background-color: black;
+    border-radius: 50%;
 }
 
 .outro-bottom {
@@ -266,7 +267,7 @@ border-radius: 50%;
     top: 50%;
     width: 3vw;
     transform: translateY(-50%);
-    background-color: #22A7B7;
+    background-color: none;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
@@ -333,7 +334,7 @@ border-radius: 50%;
     align-items: center;
     height: 20%;
     width: 100%;
-    
+
 }
 
 
@@ -346,7 +347,7 @@ border-radius: 50%;
 }
 
 
-    /* ABOUT HEADER  */
+/* ABOUT HEADER  */
 .toggle-chars {
     display: flex;
     align-items: center;
@@ -360,7 +361,8 @@ border-radius: 50%;
 }
 
 
-.tc-left, .tc-right {
+.tc-left,
+.tc-right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,7 +383,7 @@ border-radius: 50%;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-     
+
 }
 
 
@@ -399,86 +401,86 @@ border-radius: 50%;
     height: 100%;
     width: 50%;
     background-color: white;
-    border-radius:50px;
+    border-radius: 50px;
     z-index: 1;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
 }
-    /* ABOUT HEADER */
+
+/* ABOUT HEADER */
 
 
 
 
-    /* ABOUT MAIN CONTENT */
+/* ABOUT MAIN CONTENT */
 
 
-    
-    
-    #about-me-txt {
-        font-size: calc(24px + 2.5vw);
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        font-style: italic;
-        font-weight: 700;
-    }
-    
-    .about-txt-box {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-around;
-        height: 100%;
-        width: 100%;
-        border-radius: 12px;
-    }
 
 
-    .card-row {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+#about-me-txt {
+    font-size: calc(24px + 2.5vw);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
 
-    .card-label {
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 20px;
-        color: white;
-    }
-
-    .card-icons-box {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100%;
-        height: 5vh;
-        position: relative;
-        top: 2vh;
-    }
-
-    .card-icons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 4vh;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .card-icon-img {
-        width: 100%;
-        object-fit: cover;
-        border-radius: 10px;
-        filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.507))
-    }
-
-    
+.about-txt-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
 
 
-    /* ABOUT MAIN CONTENT */
+.card-row {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-label {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.card-icons-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    top: 2vh;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 4vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-icon-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.507))
+}
+
+
+
+
+/* ABOUT MAIN CONTENT */
 
 /* ABOUT SECTION */
 
@@ -497,28 +499,28 @@ border-radius: 50%;
 
 
 @media only screen and (max-width: 600px) {
-#name-txt {
+    #name-txt {
         font-size: calc(24px + 2.5vw);
     }
 
-        .full-stack-logo {
+    .full-stack-logo {
 
-            width: 30px;
-            justify-content: center;
-        }
+        width: 30px;
+        justify-content: center;
+    }
 
-        .stack-box {
-            height: 25px;
-            width: 25px;
-            border-radius: 5px;
-        }
+    .stack-box {
+        height: 25px;
+        width: 25px;
+        border-radius: 5px;
+    }
 
-        .name-logo {
-            width: 5vh;
-            height: 5vh;
-            left: 1vh;
-            font-size: 2vh;
-        }
+    .name-logo {
+        width: 5vh;
+        height: 5vh;
+        left: 1vh;
+        font-size: 2vh;
+    }
 
 
 }
